@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CudaAudio.Forms", "CudaAudio.Forms\CudaAudio.Forms.csproj", "{39550FB6-FB03-4BF8-AED3-E39A791DBB0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CudaAudio.Core", "CudaAudio.Core\CudaAudio.Core.csproj", "{8822899F-5674-4B2C-BEFB-1B9C6D5921AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CudaAudio.Runtime", "CudaAudio.Runtime\CudaAudio.Runtime.csproj", "{36A9830D-860C-4F70-A8C1-E2D306E6B3F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39550FB6-FB03-4BF8-AED3-E39A791DBB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39550FB6-FB03-4BF8-AED3-E39A791DBB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39550FB6-FB03-4BF8-AED3-E39A791DBB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39550FB6-FB03-4BF8-AED3-E39A791DBB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8822899F-5674-4B2C-BEFB-1B9C6D5921AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8822899F-5674-4B2C-BEFB-1B9C6D5921AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8822899F-5674-4B2C-BEFB-1B9C6D5921AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8822899F-5674-4B2C-BEFB-1B9C6D5921AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A9830D-860C-4F70-A8C1-E2D306E6B3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A9830D-860C-4F70-A8C1-E2D306E6B3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A9830D-860C-4F70-A8C1-E2D306E6B3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A9830D-860C-4F70-A8C1-E2D306E6B3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F208E984-87F2-4796-9B7D-4DE89D863D14}
+	EndGlobalSection
+EndGlobal
