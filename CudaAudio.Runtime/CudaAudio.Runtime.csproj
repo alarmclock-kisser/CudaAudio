@@ -23,4 +23,10 @@
     <Folder Include="Kernels\PTX\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Kernels\CU\timestretch01.cu">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
