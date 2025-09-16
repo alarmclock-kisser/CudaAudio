@@ -53,6 +53,7 @@
 			this.vScrollBar_volume = new VScrollBar();
 			this.button_export = new Button();
 			this.progressBar_processing = new ProgressBar();
+			this.textBox_metrics = new TextBox();
 			((System.ComponentModel.ISupportInitialize) this.pictureBox_waveform).BeginInit();
 			((System.ComponentModel.ISupportInitialize) this.numericUpDown_zoom).BeginInit();
 			this.groupBox_processing.SuspendLayout();
@@ -323,11 +324,22 @@
 			this.progressBar_processing.Size = new Size(320, 15);
 			this.progressBar_processing.TabIndex = 12;
 			// 
+			// textBox_metrics
+			// 
+			this.textBox_metrics.Location = new Point(512, 12);
+			this.textBox_metrics.MaxLength = 6536;
+			this.textBox_metrics.Multiline = true;
+			this.textBox_metrics.Name = "textBox_metrics";
+			this.textBox_metrics.ScrollBars = ScrollBars.Vertical;
+			this.textBox_metrics.Size = new Size(180, 230);
+			this.textBox_metrics.TabIndex = 13;
+			// 
 			// WindowMain
 			// 
 			this.AutoScaleDimensions = new SizeF(7F, 15F);
 			this.AutoScaleMode = AutoScaleMode.Font;
 			this.ClientSize = new Size(704, 681);
+			this.Controls.Add(this.textBox_metrics);
 			this.Controls.Add(this.progressBar_processing);
 			this.Controls.Add(this.button_export);
 			this.Controls.Add(this.vScrollBar_volume);
@@ -386,5 +398,6 @@
 		private Button button_fourier;
 		private Button button_export;
 		private ProgressBar progressBar_processing;
+		private TextBox textBox_metrics;
 	}
 }

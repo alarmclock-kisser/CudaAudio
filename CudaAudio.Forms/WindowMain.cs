@@ -278,6 +278,9 @@ namespace CudaAudio.Forms
 			{
 				this.numericUpDown_initialBpm.Value = (decimal) Math.Clamp(this.SelectedTrack.Bpm, (double) this.numericUpDown_initialBpm.Minimum, (double) this.numericUpDown_initialBpm.Maximum);
 			}
+
+			// Set times textbox
+			this.textBox_metrics.Text = this.SelectedTrack?.GetMetricsString() ?? "N/A";
 		}
 
 

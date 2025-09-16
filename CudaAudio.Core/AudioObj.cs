@@ -1205,6 +1205,17 @@ namespace CudaAudio.Core
 			}
 		}
 
+		public string GetMetricsString()
+		{
+			string metrics = string.Empty;
+			foreach (var kvp in this.Metrics)
+			{
+				metrics += $"{kvp.Key}: {kvp.Value:F2} ms" + Environment.NewLine;
+			}
+
+			return metrics.TrimEnd();
+		}
+
 		private async Task<string?> PrepareOutputPath(string outPath, string baseFileName)
 		{
 			// Check directory existence asynchronously
